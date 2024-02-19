@@ -1,5 +1,5 @@
 {
-    "homepage":  "https://github.com/nessipenko/marvel.git",
+    "homepage": "",
     "name": "marvel",
     "version": "0.1.0",
     "private": true,
@@ -47,6 +47,7 @@
         ]
     },
     "devDependencies": {
+        "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
         "browser-sync": "^2.27.11",
         "gulp": "^4.0.2",
         "gulp-autoprefixer": "^8.0.0",
