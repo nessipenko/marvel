@@ -3,7 +3,7 @@ import { Route, BrowserRouter as Router, Routes } from "react-router-dom"
 import AppHeader from "../appHeader/AppHeader"
 import Spinner from "../spinner/Spinner"
 
-const Page404 = lazy(() => import("../pages/404"))
+// const Page404 = lazy(() => import("../pages/404"))
 const MainPage = lazy(() => import("../pages/MainPage"))
 const ComicsPage = lazy(() => import("../pages/ComicsPage"))
 const SingleComicPage = lazy(() => import("../pages/singleComicPage/SingleComicPage"))
@@ -25,7 +25,7 @@ const App = () => {
                             <Route path='/characters/:id' element={<SinglePage Component={SingleCharPage} dataType='character' />} />
 
 
-                            <Route path='*' element={<Page404 />} />
+                            {/* <Route path='*' element={<Page404 />} /> */}
                         </Routes>
                     </Suspense>
                 </main>
